@@ -307,7 +307,7 @@ git remote -v 查看有无地址别名
 
 git remote add origin  http:...... 此处origin为起的别名
 === 7.2.4 推送
-git push origin（别名） master（分支名） 
+git push origin（别名） master（分支名） --此处的分支为origin的分支，没有会新建
 === 7.2.5 克隆
 在新的本地库，不再是之前的owner
 
